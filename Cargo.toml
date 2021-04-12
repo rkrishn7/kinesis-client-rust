@@ -1,0 +1,13 @@
+[package]
+name = "kinesis_daemon_rust"
+version = "0.1.0"
+authors = ["Rohan Krishnaswamy <rkrishn7@ucsc.edu>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusoto_core = "0.46.0"
+rusoto_kinesis = "0.46.0"
+tokio = { version = "1.4.0", features = ["full"] }
+futures = "0.3"
